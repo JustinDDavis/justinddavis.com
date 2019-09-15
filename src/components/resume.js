@@ -14,6 +14,7 @@ var roles= [
             'Developed processes to monitor and alert multi-account activity or state.',
             'Drove adoption of Voice Interfaced assistants and device onboarding.',
             'Advocated cloud technology adoption and piloted services for teams.',
+            'Contributed in integration projects involving multiple business segments',
         ]
     },
     {
