@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: 'justinddavis.com',
-        acl: null // THis was neceessary to avoid "Access Denied" message
+        acl: null // This was neceessary to avoid "Access Denied" message
     },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

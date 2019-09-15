@@ -1,17 +1,33 @@
 import React from "react"
 
-import { Card, CardBody, CardTitle, CardSubtitle  } from 'reactstrap';
+import { Row, Col, Card, CardBody, CardTitle, CardSubtitle, ListGroup, ListGroupItem } from 'reactstrap';
 
 const ResumeRoleSection = (props) => (
     <div>
 
         <Card>
             <CardBody>
-                <CardTitle>{props.roleTitle}</CardTitle>
-                <CardSubtitle>{props.rolePeriod}</CardSubtitle>
+                <Row>
+                    <Col>
+                        <CardTitle>{props.roleTitle}</CardTitle>
+                        <CardSubtitle>{props.rolePeriod}</CardSubtitle>
+                    </Col>
+                    <Col className="text-right">
+                        <h5>{props.companyName}</h5>
+                    </Col>
+                </Row>
+                
+                <br/>
+                <ListGroup flush>
+                    {
+                        props.description.map(element=>{
+                            return <ListGroupItem><p>{element}</p></ListGroupItem>
+                        })
+                    }
+                </ListGroup>
             </CardBody>
         </Card>
-
+        <br/>
 
         {/* <h2>Resume</h2>
         <h2>INVISTA</h2>
