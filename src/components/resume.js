@@ -15,7 +15,6 @@ var roles= [
             'Drove adoption of Voice Interfaced assistants and device onboarding.',
             'Advocated cloud technology adoption and piloted services for teams.',
             'Contributed in integration projects involving multiple business segments',
-            "Test"
         ]
     },
     {
