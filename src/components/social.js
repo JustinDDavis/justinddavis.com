@@ -21,7 +21,7 @@ const SocialSection = () => (
         </Card>
         <br/>
         <br/>
-        <a href="mailto:justindaniel92@gmail.com">Email</a>
+        <a href="mailto:himself@justinddavis.com">Email</a>
         <br/>
         (620) 249-7044 
         <br/>
