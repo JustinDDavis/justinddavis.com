@@ -11,10 +11,9 @@ var roles= [
         role_title : "Cloud Engineer",
         role_period: "April 2019 - Present",
         things_i_did: [
-            'Developed processes to monitor and alert multi-account activity or state.',
-            'Drove adoption of Voice Interfaced assistants and device onboarding.',
-            'Advocated cloud technology adoption and piloted services for teams.',
-            'Contributed in integration projects involving multiple business segments ',
+            'Engineer solutions to utilize AWS services driven by internal customer needs.',
+            'Survey services to identify cost or performance opportunities within environments.',
+            'Build integrations with stand-alone systems to streamline business-processes.'
         ]
     },
     {
