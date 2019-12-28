@@ -16,3 +16,5 @@ It's not the most beautiful page in the land, but it is mine.
   1. gatsby build
   2. gatsby serve
      1. Runing this alone will only give you a blank page. 
+OR
+  1. gatsby develop 
