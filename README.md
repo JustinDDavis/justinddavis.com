@@ -11,3 +11,8 @@ I've used this as a way to work on a few technologies that I don't get to use ve
     - S3
 
 It's not the most beautiful page in the land, but it is mine. 
+
+## Running local
+  1. gatsby build
+  2. gatsby serve
+     1. Runing this alone will only give you a blank page. 
