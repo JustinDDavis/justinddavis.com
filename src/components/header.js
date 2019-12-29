@@ -3,8 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import JustinImage from "../components/justin_headshot"
+import Social from "../components/social"
 
 import { Container, Row, Col } from 'reactstrap';
+import { auto } from "eol";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -20,7 +22,7 @@ const Header = ({ siteTitle }) => (
     }}>
     <Row>
 
-      <Col>
+      <Col sm="12" md="8"> 
         <div>
           <h1 style={{ marginTop: 50 }}>
             <Link
@@ -33,12 +35,13 @@ const Header = ({ siteTitle }) => (
               {siteTitle}
             </Link>
           </h1>
+          <Social />
         </div>
       </Col>
-      <Col>
+      <Col sm="12" md="4">
         <div
           style={{
-            maxWidth: 400
+            maxWidth: 400,
           }}>
           <JustinImage />
         </div>

@@ -18,3 +18,28 @@ It's not the most beautiful page in the land, but it is mine.
      1. Runing this alone will only give you a blank page. 
 OR
   1. gatsby develop 
+
+
+## General Component Structure
+  - Index.js (index.js)
+    - Layout (layout.js)
+      - Header (header.js)
+        - Container
+          - Row
+            - Col
+              - Link
+            - Col
+              - JustinImage (justin_headshot.js)
+      - Injected: (index.js)
+        - SEO (seo.js)
+        - Row
+          - Col
+            - Text
+        - Container
+          - Row
+            - Col
+              - Resume (resume.js)
+                - ResumeRole (resume_role.js)
+            - Col
+              - Social (social.js)
+      - Footer

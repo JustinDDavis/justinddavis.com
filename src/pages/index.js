@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Resume from "../components/resume"
+import Contact from "../components/contact"
 import Social from "../components/social"
 import SEO from "../components/seo"
 
@@ -30,7 +31,7 @@ const IndexPage = () => (
         <Resume />
       </Col>
       <Col sm="12" md="3">
-        <Social />
+        <Contact />
       </Col>
      </Row>
    </Container>
