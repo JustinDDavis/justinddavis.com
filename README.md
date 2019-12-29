@@ -46,3 +46,10 @@ OR
 
 # Fa Icons: 
 https://github.com/react-icons/react-icons
+
+# Color Scheme
+https://paletton.com/#uid=33j0u0kd5xS4bTj8tJdhQrSminc
+
+Green: 5F9DA0
+Yellow: FFDD97
+Red: FF9997
