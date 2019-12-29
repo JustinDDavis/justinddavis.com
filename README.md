@@ -43,3 +43,6 @@ OR
             - Col
               - Social (social.js)
       - Footer
+
+# Fa Icons: 
+https://github.com/react-icons/react-icons

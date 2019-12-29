@@ -20,7 +20,7 @@ const IndexPage = () => (
 
     <Row>
       <Col>
-      <p>This site is all about me and the things I've been up to...</p>
+      <p>&nbsp;</p>
       </Col>
      </Row>
 

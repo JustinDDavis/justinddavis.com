@@ -26,7 +26,7 @@ const JustinImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{ borderRadius: 400/1, }}/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{ borderRadius: 400/1,  margin: "1em auto"}}/>
 }
 
 export default JustinImage
