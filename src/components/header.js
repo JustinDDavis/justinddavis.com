@@ -38,6 +38,7 @@ const Header = ({ siteTitle }) => (
           <h4 style={{ color: '#FFDD97'}}>
             Cloud Engineer
           </h4>
+          -------
           <Social />
         </div>
       </Col>
