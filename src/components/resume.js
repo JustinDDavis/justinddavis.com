@@ -2,7 +2,7 @@ import React, { useState, Component } from "react"
 
 import ResumeRole from "../components/resume_role"
 import { FaUserTie, FaGlassWhiskey } from 'react-icons/fa'
-import { ButtonGroup, Button, Row, Col } from 'reactstrap'
+import { ButtonGroup, Button, Row, Col, Tooltip } from 'reactstrap'
 import { forEach } from "iterall";
 // import { element } from "prop-types";
 
@@ -90,6 +90,12 @@ var roles= [
 const ResumeSection = () => {
     const [rSelected, setRSelected] = useState(null);
 
+    const [tooltipOpenPro, setTooltipOpenPro] = useState(false);
+    const [tooltipOpenJoe, setTooltipOpenJoe] = useState(false);
+
+    const togglePro = () => setTooltipOpenPro(!tooltipOpenPro);
+    const toggleJoe = () => setTooltipOpenJoe(!tooltipOpenJoe);
+
     
     return (
     <div>
@@ -99,10 +105,15 @@ const ResumeSection = () => {
             </Col>
             <Col md="9" className="text-right">
                 <ButtonGroup>
-                    <Button style={{ backgroundColor: "#5F9DA0"}} onClick={() => setRSelected(1)} active={rSelected === 1}><FaUserTie style={{ color: '#212529' }}/> Pro</Button>
-                    <Button style={{ backgroundColor: "#5F9DA0"}} onClick={() => setRSelected(2)} active={rSelected === 2}><FaGlassWhiskey style={{ color: '#212529' }} /> Joe</Button>
+                    <Button id="ProTooltip" style={{ backgroundColor: "#5F9DA0"}} onClick={() => setRSelected(1)} active={rSelected === 1}><FaUserTie style={{ color: '#212529' }}/> Pro</Button>
+                    <Tooltip placement="top" isOpen={tooltipOpenPro} target="ProTooltip" toggle={togglePro}>
+                        Your vague high-level typical resume descriptions
+                    </Tooltip>
+                    <Button id="JoeTooltip" style={{ backgroundColor: "#5F9DA0"}} onClick={() => setRSelected(2)} active={rSelected === 2}><FaGlassWhiskey style={{ color: '#212529' }} /> Joe</Button>
+                    <Tooltip placement="top" isOpen={tooltipOpenJoe} target="JoeTooltip" toggle={toggleJoe}>
+                        Real English explainations of what I did
+                    </Tooltip>
                 </ButtonGroup>
-                <p>Pro: Your vague high-level typical resume descriptions<br/>Joe: Real English explainations of what I did</p>
             </Col>
         </Row>
         
