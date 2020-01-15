@@ -12,11 +12,15 @@ var roles= [
         role_title : "Cloud Engineer",
         role_period: "April 2019 - Present",
         things_i_did: [
-            'Engineer solutions to utilize AWS services driven by internal customer needs.',
-            'Survey services to identify cost or performance opportunities within environments.',
-            'Build integrations with stand-alone systems to streamline business-processes.'
+            'Demonstrate knowledge of Cloud-centric concepts with AWS-specific implementations.',
+            'Advise colleagues during planning of service-based architectures.',
+            'Evaluate services that have potential use-cases to provide business-value.',
+            'Architect proof-of-concept projects written in Python and Node.js. ',
+            'Publicize DevOps practices with organizational teams.',
         ],
         joe_things_i_did: [
+            'Built customized Alexa for Business (Internal-Only) Skills',
+            'Contributed to Intergration modernization project. Included APIs and Messaging methods',
             'Built EC2 instances from catalog and custom AMIs',
             'Worked in efforts to migrate on-premise servers into AWS',
             'Perform service reviews of new offerings from AWS, build POVs and experiment with use-cases',
